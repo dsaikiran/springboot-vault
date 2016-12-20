@@ -1,0 +1,9 @@
+spring:
+    application:
+        name: my-application
+    cloud:
+        vault:
+            token: 3d5dd20f-160e-e52c-890c-54377e713db1
+            scheme: https
+            ssl:
+              trust-store: file:/home/sateesh/Downloads/spring-cloud-vault-config-master/src/test/bash/work/keystore.jks
